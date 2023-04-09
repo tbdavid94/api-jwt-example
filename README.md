@@ -28,3 +28,20 @@
 - result => screenshot
 - [x] Create a replies table, which allows the users to comment/reply on a existing post.
 
+## Second Assignment
+
+- [x] Create a new lumen project
+- [x] Create a migration, model & controller for users, admins, instructors
+- [x] Implement jwt-auth, with all the routes necessary
+- [x] Create a table user_details where you put all extra details for a user that aren't in the users table
+- [x] Use a relationship between user and user_details on model
+- [x] Create a migration, model & controller for courses
+- [x] Allow a Instructor to create a course
+- [x] Allow a user to enroll in a course
+- [x] Create a table for Threads(posts) that a instructor can post something for his/her students
+- [ ] Threads of a course can only be viewed by its enrolled students.
+- [ ] A student can reply on a thread
+- [ ] A instructor can delete a student reply
+- [ ] A student can delete his own reply(but not others replay)
+- [ ] A admin should be able to delete a course
+

@@ -22,5 +22,7 @@ Route::group(['middleware' => 'auth:api'], function () {
     Route::post('me', 'AuthController@me');
     Route::apiResource('posts', 'PostController',['store','update','delete']);
     Route::post('reply/{id}', 'ReplyController@store');
+    Route::post('course-{id}-register', 'CourseController@register');
+    Route::apiResource('courses', 'CourseController', ['store']);
 
 });
